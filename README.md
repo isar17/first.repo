@@ -3,9 +3,9 @@ Hello World!
 The file determinant.cpp is my take on computing a determinant.
 I found a couple of determinant calculators online but none of them had their source code available (atleast when I tried)
 So, I made my own determinant calculator.
-This also computes the transpose ( a rather easy thimg to do ) and a couple of other easy things.
+This also computes the transpose ( a rather easy thing to do ) and a couple of other easy things.
 
-It first reduces the matrix using Gaussian row reduction and then product of the diagonal elements is the determinant.
+It first reduces the matrix using Gaussian row reduction and then product of the diagonal elements gives the determinant.
 (I had to first learn about this way beforehand, it was quite difficult and took me a long time)
 One of my friend accomplished the determinant using recursion which I consider a great feat, since I have problem thinking
 recursively. I am more of the iterative kind.
