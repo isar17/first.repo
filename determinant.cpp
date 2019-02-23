@@ -30,7 +30,7 @@ double** option2(double**ptr1,double**ptr2,int frow,int fcol,int frow1,int fcol1
 
 double** memory(double** pointer, int frow,int fcol)
 {
-    pointer=(double**)malloc(sizeof(double)*frow);
+    pointer=(double**)malloc(sizeof(double*)*frow);
     for(int i=0;i<frow;i++)
     {
         *(pointer+i)=(double*)malloc(sizeof(double)*fcol);
